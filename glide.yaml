@@ -1,0 +1,9 @@
+package: .
+import:
+- package: github.com/dongjialong2006/log
+- package: github.com/juju/errors
+testImport:
+- package: github.com/onsi/ginkgo
+  version: ~1.6.0
+- package: github.com/onsi/gomega
+  version: ~1.4.1
